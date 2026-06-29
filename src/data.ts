@@ -1,6 +1,6 @@
-import type { FoodCard } from "./components/shared/Card";
+import type { FoodType } from "./components/shared/Card";
 
-export const FOOD_DATA: FoodCard[] = [
+export const FOOD_DATA: FoodType[] = [
     {
         PicAddress: "/Rectangle 29266-1.png",
         title: "خوشمزه خوشمزه",

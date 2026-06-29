@@ -2,7 +2,7 @@ export default function BestEvent() {
     return (
         <div className="w-11/12 md:w-9/12 md:flex md:flex-row-reverse rounded-xl md:rounded-2xl p-4 bg-white mx-auto relative  my-10">
             {/* عکس اصلی + اکشن‌ها */}
-            <div className="relative w-full mt-10 md:mt-0 overflow-hidden rounded-xl ">
+            <div className="relative w-full mt-10 md:mt-0  overflow-hidden rounded-xl ">
                 <img
                     src="/images/bestEvents/Rectangle 29469.png"
                     className="w-full h-full"
@@ -99,7 +99,7 @@ export default function BestEvent() {
             </div>
 
             {/* card detail */}
-            <div className="mt-5 space-y-3 md:mt-20 md:pl-44 ">
+            <div className="mt-5 space-y-3 md:mt-20  lg:pl-20 ">
                 {/* user count */}
                 <div className="flex gap-1 items-baseline">
                     <span className="bg-amber-300 text-white md:text-xs rounded-lg px-1 py-0.5 ml-1">
@@ -113,7 +113,7 @@ export default function BestEvent() {
                     سفالگری ، تجربه ای از لمس تا خلق{" "}
                 </h2>
                 <div>
-                    <p className="text-sm/relaxed md:text-xs text-gray-700 font-light">
+                    <p className="text-sm/relaxed md:mb-5 md:text-xs text-gray-700 font-light">
                         در این رویداد سفالگری، با دستان خودت خاک را شکل می‌دهی و
                         از یک تکه گل ساده، اثری منحصربه‌فرد خلق می‌کنی. از
                         آشنایی با اصول اولیه کار با چرخ سفال تا فرم‌دهی و پرداخت
@@ -122,7 +122,7 @@ export default function BestEvent() {
                         چیزی که امضای تو را دارد.
                     </p>
                 </div>
-                <div className="flex items-center justify-between">
+                <div className="flex items-center md:gap-3">
                     <button
                         type="button"
                         className="

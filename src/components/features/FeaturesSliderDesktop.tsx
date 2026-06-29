@@ -1,5 +1,5 @@
 import { FOOD_DATA } from "../../data";
-import Card, { type FoodCard } from "../shared/Card";
+import Card, { type FoodType } from "../shared/Card";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -12,7 +12,6 @@ type FeaturesSliderDesktopProps = {
 export default function FeaturesSliderDesktop({
     onSwiperReady,
 }: FeaturesSliderDesktopProps) {
-
     return (
         <div className="hidden md:flex w-full mt-5 ">
             {/* Slider */}
@@ -35,7 +34,7 @@ export default function FeaturesSliderDesktop({
                     }}
                     className="!overflow-y-visible !overflow-x-hidden bg-transparent"
                 >
-                    {FOOD_DATA.map((food: FoodCard, index) => (
+                    {FOOD_DATA.map((food: FoodType, index) => (
                         <SwiperSlide
                             key={index}
                             className="!flex !items-start !justify-center py-3"
@@ -51,7 +50,7 @@ export default function FeaturesSliderDesktop({
                                 <Card
                                     PicAddress={food.PicAddress}
                                     title={food.title}
-                                    price={food.price}
+                                    price={food.price.toLocaleString()}
                                     className="scale-90 hover:scale-100 "
                                 />
                             </div>
@@ -59,8 +58,6 @@ export default function FeaturesSliderDesktop({
                     ))}
                 </Swiper>
             </div>
-
-           
         </div>
     );
 }

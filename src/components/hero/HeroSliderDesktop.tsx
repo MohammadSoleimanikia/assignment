@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { FOOD_DATA } from "../../data";
-import Card, { type FoodCard } from "../shared/Card";
+import Card, { type FoodType } from "../shared/Card";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -8,6 +8,7 @@ import type { Swiper as SwiperType } from "swiper";
 
 import "swiper/css";
 import SliderNextButton from "../shared/SliderNextButton";
+import PrimaryButton from "../shared/PrimaryButton";
 
 export default function HeroSliderDesktop() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -43,7 +44,7 @@ export default function HeroSliderDesktop() {
                     }}
                     className="!overflow-y-visible !overflow-x-hidden bg-transparent"
                 >
-                    {FOOD_DATA.map((food: FoodCard, index) => (
+                    {FOOD_DATA.map((food: FoodType, index) => (
                         <SwiperSlide
                             key={index}
                             className="!flex !items-end !justify-center py-8"
@@ -64,7 +65,7 @@ export default function HeroSliderDesktop() {
                                 <Card
                                     PicAddress={food.PicAddress}
                                     title={food.title}
-                                    price={food.price}
+                                    price={food.price.toLocaleString()}
                                 />
                             </div>
                         </SwiperSlide>
@@ -72,7 +73,7 @@ export default function HeroSliderDesktop() {
                 </Swiper>
             </div>
 
-            {/* Info مربوط به کارت اکتیو */}
+            {/* active card data */}
             <div className="p-10 md:w-1/3 mb-5">
                 <div key={activeIndex} className="animate-cta-slide-up">
                     <div className="flex items-center gap-2">
@@ -100,26 +101,7 @@ export default function HeroSliderDesktop() {
                 <div className="mt-25 flex justify-center md:justify-between">
                     <SliderNextButton onClick={handleNextSlide} />
 
-                    <button
-                        type="button"
-                        className="
-                text-xs
-                relative overflow-hidden
-                bg-[#1d60a4] w-44 py-2.5 text-white rounded-md
-                before:content-['']
-                before:absolute
-                before:left-0
-                before:top-0
-                before:h-full
-                before:w-0
-                before:bg-[#4a80b6]
-                before:transition-all
-                before:duration-700
-                before:ease-in-out
-                hover:before:w-5/6"
-                    >
-                        <span className="relative z-10">رزرو رویداد</span>
-                    </button>
+                    <PrimaryButton>رزرو رویداد</PrimaryButton>
                 </div>
             </div>
         </div>

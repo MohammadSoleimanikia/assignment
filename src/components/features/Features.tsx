@@ -30,7 +30,7 @@ export default function Features() {
             className="
                 relative
                 bg-gradient-to-br from-[#FF7777] to-[#EF234C]
-                mt-24 lg:mt-44 mb-10 pt-5
+                mt-16 lg:mt-44 mb-10 pt-5
                 md:w-9/12 md:mx-auto md:rounded-2xl
                 md:min-h-[300px]
             "

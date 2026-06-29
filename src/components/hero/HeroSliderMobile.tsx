@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { FOOD_DATA } from "../../data";
-import Card, { type FoodCard } from "../shared/Card";
+import Card, { type  FoodType } from "../shared/Card";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "./Slider.css";
+import PrimaryButton from "../shared/PrimaryButton";
 
 export default function HeroSliderMobile() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -32,7 +33,7 @@ export default function HeroSliderMobile() {
                 }}
                 className="food-slider-mobile w-full !overflow-y-visible !overflow-x-hidden bg-transparent"
             >
-                {FOOD_DATA.map((food: FoodCard, index) => (
+                {FOOD_DATA.map((food: FoodType, index) => (
                     <SwiperSlide
                         key={index}
                         className="!flex !items-end !justify-center "
@@ -53,7 +54,7 @@ export default function HeroSliderMobile() {
                             <Card
                                 PicAddress={food.PicAddress}
                                 title={food.title}
-                                price={food.price}
+                                price={food.price.toLocaleString()}
                                 className="w-full"
                             />
                         </div>
@@ -61,7 +62,7 @@ export default function HeroSliderMobile() {
                 ))}
             </Swiper>
 
-            {/* CTA مربوط به کارت اکتیو وسط */}
+            {/* Details about active card*/}
             <div className="flex flex-col items-center">
                 <div className=" mt-4  rounded-2xl  px-3 " dir="rtl">
                     <div className="flex items-center gap-2">
@@ -82,28 +83,7 @@ export default function HeroSliderMobile() {
                     </p>
                 </div>
 
-                <button
-                    type="button"
-                    className="
-                        relative mt-5 w-42 overflow-hidden rounded-md
-                        bg-[#1d60a4] py-2 text-sm font-semibold text-white
-                        
-                        before:content-['']
-                        before:absolute
-                        before:left-0
-                        before:top-0
-                        before:h-full
-                        before:w-0
-                        before:bg-[#4a80b6]
-                        before:transition-all
-                        before:duration-500
-                        before:ease-in-out
-
-                        hover:before:w-1/2
-                    "
-                >
-                    <span className="relative z-10">رزرو رویداد</span>
-                </button>
+                <PrimaryButton>رزرو رویداد</PrimaryButton>
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 import { FOOD_DATA } from "../../data";
-import Card, { type FoodCard } from "../shared/Card";
+import Card, { type FoodType } from "../shared/Card";
 import type { Swiper as SwiperType } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -33,7 +33,7 @@ export default function FeaturesSliderMobile({
                 className="food-slider-mobile w-full !
                 overflow-y-visible !overflow-x-hidden bg-transparent"
             >
-                {FOOD_DATA.map((food: FoodCard, index) => (
+                {FOOD_DATA.map((food: FoodType, index) => (
                     <SwiperSlide
                         key={index}
                         className="!flex !items-end !justify-center "
@@ -50,7 +50,7 @@ export default function FeaturesSliderMobile({
                             <Card
                                 PicAddress={food.PicAddress}
                                 title={food.title}
-                                price={food.price}
+                                price={food.price.toLocaleString()}
                                 className="w-full"
                             />
                         </div>

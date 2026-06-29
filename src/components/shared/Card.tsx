@@ -1,7 +1,12 @@
-export type FoodCard = {
+export type FoodType = {
     PicAddress: string;
     title: string;
     price: number;
+};
+export type FoodCardProps = {
+    PicAddress: string;
+    title: string;
+    price: string;
     className?: string;
 };
 
@@ -10,7 +15,7 @@ export default function Card({
     price,
     title,
     className = "",
-}: FoodCard) {
+}: FoodCardProps) {
     return (
         <div
             className={`
