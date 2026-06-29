@@ -1,3 +1,4 @@
+import BestEvent from "./components/bestEvent/BestEvent";
 import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
 // import Testimonial from "./components/testimonial/Testimonial";
@@ -7,7 +8,8 @@ function App() {
     return (
         <main className="bg-slate-100 min-h-screen font-vazir">
             <Hero />
-            <Features />
+            <Features  />
+            <BestEvent />
             {/* <div className="hidden md:block">
                 <Testimonial />
             </div>
