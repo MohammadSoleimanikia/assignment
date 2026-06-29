@@ -34,11 +34,11 @@ export default function Card({
                 />
             </div>
 
-            <h2 className="mt-2 text-[7px] md:text-xs  font-semibold truncate">
+            <h2 className="mt-2 text-[10px] md:text-xs  font-semibold truncate">
                 {title}
             </h2>
 
-            <p className="mt-1 text-slate-500 text-[7px] md:text-[10px] ">
+            <p className="mt-1 text-slate-500 text-[10px] md:text-[10px] ">
                 {price}
                 <span className="mr-1">تومان</span>
             </p>
