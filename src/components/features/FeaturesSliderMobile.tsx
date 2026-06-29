@@ -13,7 +13,7 @@ export default function FeaturesSliderMobile({
 }: FeaturesSliderMobileProps) {
 
     return (
-        <div className="md:hidden w-full mt-4  relative z-20 ">
+        <div className="md:hidden w-full my-4  relative z-20 ">
             <Swiper
                 modules={[Autoplay]}
                 dir="ltr"
