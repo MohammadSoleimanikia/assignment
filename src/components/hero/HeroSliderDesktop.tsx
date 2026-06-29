@@ -66,6 +66,7 @@ export default function HeroSliderDesktop() {
                                     PicAddress={food.PicAddress}
                                     title={food.title}
                                     price={food.price.toLocaleString()}
+                                    className="hover:-translate-y-5"
                                 />
                             </div>
                         </SwiperSlide>
@@ -74,7 +75,7 @@ export default function HeroSliderDesktop() {
             </div>
 
             {/* active card data */}
-            <div className="p-10 md:w-1/3 mb-5">
+            <div className="p-10 md:w-1/3 ">
                 <div key={activeIndex} className="animate-cta-slide-up">
                     <div className="flex items-center gap-2">
                         <img
