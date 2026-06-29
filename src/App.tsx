@@ -7,7 +7,7 @@ import Hero from "./components/hero/Hero";
 
 function App() {
     return (
-        <main className="bg-slate-100 min-h-screen font-vazir">
+        <main className="bg-slate-100 min-h-screen space-y-24 font-vazir">
             <Hero />
             <Features  />
             <BestEvent />
