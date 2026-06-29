@@ -1,7 +1,7 @@
 import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
-import Testimonial from "./components/testimonial/Testimonial";
-import TestimonialMobile from "./components/testimonial/TestimonialMobile";
+// import Testimonial from "./components/testimonial/Testimonial";
+// import TestimonialMobile from "./components/testimonial/TestimonialMobile";
 
 function App() {
     return (
