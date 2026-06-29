@@ -21,7 +21,6 @@ export default function Card({
             className={`
                 bg-white text-black rounded-xl w-full p-1.5 sm:p-2 md:p-2 
                 shadow-sm transition-all duration-300
-                hover:-translate-y-5
                 ${className}
             `}
         >
