@@ -7,7 +7,7 @@ export default function Hero() {
         <div className=" relative z-10 flex justify-between flex-col">
             <Header />
             <img
-                src="/public/2.png"
+                src="/2.png"
                 className=" md:hidden  w-screen absolute top-0 left-0 -z-10"
                 alt="mobile pic"
             />
