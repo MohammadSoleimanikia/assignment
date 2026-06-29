@@ -1,0 +1,62 @@
+.food-slider .swiper-wrapper,
+.food-desktop-slider .swiper-wrapper {
+    align-items: center;
+}
+/* ================= Animation ================= */
+@keyframes cta-slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-cta-slide-up {
+    animation: cta-slide-up 0.45s ease-out;
+}
+
+/* ================= Mobile ================= */
+.food-slider-mobile {
+    padding-inline: 0;
+}
+
+.food-slider-mobile .swiper-wrapper {
+    align-items: flex-end;
+}
+
+.food-slider-mobile .swiper-slide {
+    height: auto;
+}
+
+/* ================= Desktop ================= */
+
+.food-desktop-slider {
+    overflow: hidden !important;
+}
+
+.food-desktop-slider .swiper-wrapper {
+    align-items: center;    
+}
+
+.food-desktop-slider .swiper-slide {
+    height: auto;
+    z-index: 1;
+}
+
+.food-desktop-slider .desktop-slide-card {
+    transform: scale(1);
+    transform-origin: left center;
+    transition: transform 0.45s ease;
+}
+
+.food-desktop-slider .swiper-slide-active {
+    z-index: 30;
+}
+
+.food-desktop-slider .swiper-slide-active .desktop-slide-card {
+    transform: scale(1.25);
+}
