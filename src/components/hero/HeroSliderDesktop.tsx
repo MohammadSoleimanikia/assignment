@@ -28,20 +28,7 @@ export default function HeroSliderDesktop() {
                     dir="ltr"
                     modules={[Autoplay]}
                     slidesPerView={3.5}
-                    breakpoints={{
-                        768: {
-                            slidesPerView: 2.5,
-                        },
-                        1024: {
-                            slidesPerView: 3.3,
-                        },
-                        1200: {
-                            slidesPerView: 3.5,
-                        },
-                        1500: {
-                            slidesPerView: 5.2,
-                        },
-                    }}
+                    
                     slidesPerGroup={1}
                     spaceBetween={0}
                     loop={true}
@@ -80,7 +67,8 @@ export default function HeroSliderDesktop() {
                                     PicAddress={food.PicAddress}
                                     title={food.title}
                                     price={food.price}
-                                    className="hover:-translate-y-5"
+                                    className="hover:-translate-y-5 
+                                    md:w-44 xl:w-56 2xl:w-64"
                                 />
                             </div>
                         </SwiperSlide>
