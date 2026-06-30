@@ -46,12 +46,12 @@ export default function Features() {
                     flex flex-col md:flex-row
                     space-y-2 md:space-y-0
                     justify-between
-                    text-white
+                    
                     
                 "
             >
                 {/* Info - right side on desktop */}
-                <div className="md:w-3/12 md:pr-2  md:space-y-15">
+                <div className="md:w-3/12 md:pr-2 text-white md:space-y-15">
                     <div className="px-5 flex mt-5 justify-between relative">
                         <div className="flex items-center">
                             <h2 className="text-xl  md:font-semibold md:text-xl">
