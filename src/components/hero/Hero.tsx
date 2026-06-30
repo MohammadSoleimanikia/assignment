@@ -4,7 +4,7 @@ import HeroSliderDesktop from "./HeroSliderDesktop";
 
 export default function Hero() {
     return (
-        <div className=" relative z-10 flex justify-between flex-col min-h-screen">
+        <div className=" relative z-10 flex justify-between flex-col md:min-h-screen">
             <Header />
             <img
                 src="/2.png"

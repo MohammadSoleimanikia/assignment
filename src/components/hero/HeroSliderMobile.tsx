@@ -83,7 +83,7 @@ export default function HeroSliderMobile() {
                     </p>
                 </div>
 
-                <PrimaryButton>رزرو رویداد</PrimaryButton>
+                <PrimaryButton className="mt-4">رزرو رویداد</PrimaryButton>
             </div>
         </div>
     );
