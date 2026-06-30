@@ -1,14 +1,17 @@
 export default function BestEvent() {
     return (
-        <div className="w-11/12 lg:w-9/12
+        <div
+            className="w-11/12 lg:w-9/12
                         md:flex md:justify-between md:flex-row-reverse 
                         rounded-xl md:rounded-2xl p-4 
-                        bg-white mx-auto relative  ">
+                        bg-white mx-auto relative  "
+        >
             {/* عکس اصلی + اکشن‌ها */}
-            <div className="relative  md:w-2/5 lg:w-1/3 xl:w-1/4 mt-10 md:mt-0 aspect-square overflow-hidden rounded-xl ">
+            {/* md:w-3/5 lg:w-2/3 xl:w-3/6 */}
+            <div className="relative md:w-1/3   mt-10 md:mt-0  overflow-hidden rounded-xl ">
                 <img
                     src="/images/bestEvents/Rectangle 29469.png"
-                    className="relative w-full h-full object-cover"
+                    className="relative w-full aspect-square h-full object-cover"
                     alt=""
                 />
 
@@ -102,7 +105,8 @@ export default function BestEvent() {
             </div>
 
             {/* card detail */}
-            <div className="mt-5 md:w-3/6 lg:w-2/3 xl:w-3/6 space-y-3 md:flex md:flex-col md:justify-around md:mt-20  lg:pl-20 ">
+            {/* lg:w-2/3 xl:w-3/6 */}
+            <div className="mt-5 md:w-2/3 xl:w-6/12   md:flex md:flex-col md:justify-around md:mt-20  lg:pl-10 ">
                 {/* user count */}
                 <div className="flex gap-1 items-baseline">
                     <span className="bg-amber-300 text-white md:text-xs rounded-lg px-1 py-0.5 ml-1">
@@ -160,7 +164,7 @@ export default function BestEvent() {
                                 className="
                                     text-[10px] text-gray-500
                                     transition-colors duration-300
-                                    group-hover:text-gray-900"
+                                    group-hover:text-gray-900 text-nowrap"
                             >
                                 نشان کردن
                             </span>
@@ -190,7 +194,7 @@ export default function BestEvent() {
                         <p className="text-sm line-through text-[#B3DADE]">
                             1250000
                         </p>
-                        <p className="text-base font-semibold">1000000 تومان</p>
+                        <p className="text-base font-semibold text-nowrap">1000000 تومان</p>
                     </div>
                 </div>
             </div>
