@@ -19,7 +19,14 @@ export default function FeaturesSliderDesktop({
                 <Swiper
                     dir="rtl"
                     modules={[Autoplay]}
-                    slidesPerView={3.3}
+                    breakpoints={{
+                        768:{
+                            slidesPerView:2.5
+                        },
+                        1024:{
+                            slidesPerView:3.3
+                        }
+                    }}
                     slidesPerGroup={1}
                     spaceBetween={10}
                     loop={true}
