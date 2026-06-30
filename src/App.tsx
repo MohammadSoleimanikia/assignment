@@ -1,19 +1,15 @@
 import BestEvent from "./components/bestEvent/BestEvent";
 import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
-import UserPicks from "./components/UserPicks/UserPicks";
-// import FreeEvents from "./components/freeEvents/FreeEvents";
-// import Testimonial from "./components/testimonial/Testimonial";
-// import TestimonialMobile from "./components/testimonial/TestimonialMobile";
+import UserPick from "./components/UserPicks/UserPick";
 
 function App() {
     return (
-        <main className="bg-slate-100 min-h-screen space-y-24 font-vazir">
+        <main className="bg-slate-100  font-vazir  min-h-screen space-y-24 font-vazir">
             <Hero />
-            <Features/>
-            <BestEvent/>
-            <UserPicks/>
-            
+            <Features />
+            <BestEvent />
+            <UserPick />
         </main>
     );
 }
