@@ -21,7 +21,7 @@ export default function FeaturesSliderDesktop({
                     modules={[Autoplay]}
                     breakpoints={{
                         768:{
-                            slidesPerView:2.5
+                            slidesPerView:2.7
                         },
                         1024:{
                             slidesPerView:3.3
