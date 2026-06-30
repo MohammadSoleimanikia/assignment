@@ -40,16 +40,17 @@ body {
 }
 
 /* animation for gift */
+
 @theme {
-    --animate-sway: sway 3s ease-in-out infinite;
+    --animate-sway: sway 3s ease-in-out infinite ;
 
     @keyframes sway {
         0%,
         100% {
-            transform: rotate(10deg);
+            transform: rotate(15deg);
         }
         50% {
-            transform: rotate(-24deg);
+            transform: rotate(-25deg);
         }
     }
 }

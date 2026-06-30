@@ -1,5 +1,6 @@
 import BestEvent from "./components/bestEvent/BestEvent";
 import Features from "./components/features/Features";
+import FreeEvents from "./components/freeEvents/FreeEvents";
 import Hero from "./components/hero/Hero";
 import UserPick from "./components/UserPicks/UserPick";
 
@@ -10,6 +11,7 @@ function App() {
             <Features />
             <UserPick />
             <BestEvent />
+            <FreeEvents/>
         </main>
     );
 }

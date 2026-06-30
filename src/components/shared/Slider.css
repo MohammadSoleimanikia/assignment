@@ -39,7 +39,7 @@
 }
 
 .food-desktop-slider .swiper-wrapper {
-    align-items: center;    
+    align-items: center;
 }
 
 .food-desktop-slider .swiper-slide {
@@ -59,4 +59,27 @@
 
 .food-desktop-slider .swiper-slide-active .desktop-slide-card {
     transform: scale(1.25);
+}
+
+/* ================= Free Event Pagination ================= */
+.free-event-pagination-desktop .swiper-pagination-bullet,
+.free-event-pagination-mobile .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+    border-radius: 4px;
+    background-color: #b3dade;
+    opacity: 1;
+    margin: 0 !important;
+    transition: all 0.3s ease;
+}
+
+.free-event-pagination-desktop .swiper-pagination-bullet-active,
+.free-event-pagination-mobile .swiper-pagination-bullet-active {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url("/active.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
