@@ -28,7 +28,7 @@ export default function Card({
                 <img
                     src="/save-icon.svg"
                     alt="save icon"
-                    className="absolute right-2 top-2 w-4 h-4 sm:w-5 sm:h-5 z-10"
+                    className="absolute rounded-md right-2 top-2 w-4 h-4 sm:w-5 sm:h-5 z-10"
                 />
 
                 <img
