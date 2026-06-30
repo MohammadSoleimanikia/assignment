@@ -2,10 +2,10 @@ export default function BestEvent() {
     return (
         <div className="w-11/12 md:w-9/12 md:flex md:flex-row-reverse rounded-xl md:rounded-2xl p-4 bg-white mx-auto relative  ">
             {/* عکس اصلی + اکشن‌ها */}
-            <div className="relative w-full mt-10 md:mt-0  overflow-hidden rounded-xl ">
+            <div className="relative w-full mt-10 md:mt-0 aspect-square overflow-hidden rounded-xl ">
                 <img
                     src="/images/bestEvents/Rectangle 29469.png"
-                    className="w-full h-full"
+                    className="w-full h-full object-cover"
                     alt=""
                 />
 
@@ -123,7 +123,6 @@ export default function BestEvent() {
                     </p>
                 </div>
                 <div className="flex items-center justify-between md:gap-3">
-
                     {/* CTA */}
                     <div className="md:flex md:gap-3">
                         <button
