@@ -19,7 +19,7 @@ export default function Card({
     return (
         <div
             className={`
-                bg-white rounded-xl p-1.5
+                bg-white rounded-xl p-2
                 transition-all duration-300
                 ${className}
             `}
