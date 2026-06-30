@@ -2,7 +2,7 @@ import Card from "../shared/Card";
 import { EVENTS_DATA } from "../../data";
 export default function UserPicksMobile() {
     return (
-        <div className="md:hidden">
+        <div className="md:hidden w-11/12 mx-auto">
             {/* smiley section */}
             <div className="w-full flex justify-end bg-linear-to-br py-5 px-10 rounded-2xl  from-[#E8C631] to-[#F5D548]">
                 <img

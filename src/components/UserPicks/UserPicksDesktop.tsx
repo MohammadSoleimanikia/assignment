@@ -20,8 +20,9 @@ export default function UserPicksDesktop() {
                 src="/stickers-container.svg"
                 alt=""
                 className="
+                
                     absolute top-[10%] left-[10%]
-                    w-[clamp(120px,25vw,300px)]
+                    w-[clamp(120px,30vw,400px)]
                 "
             />
 

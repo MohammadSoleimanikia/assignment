@@ -14,7 +14,7 @@ export default function SliderPrevButton({
             className={`
                 group
                 bg-[radial-gradient(circle,_rgba(255,255,255,0.6)_0%,_rgba(255,255,255,0.1)_100%)]
-                size-7  lg:size-16 md:flex
+                size-7 lg:size-9 2xl:size-16 md:flex
                 items-center justify-center
                 text-black rounded-md
                 border border-white

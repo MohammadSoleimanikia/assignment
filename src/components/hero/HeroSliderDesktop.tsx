@@ -94,16 +94,16 @@ export default function HeroSliderDesktop() {
                     <div className="flex items-center gap-2">
                         <img
                             src="/File_dock_fill.svg"
-                            className="size-7 lg:size-14"
+                            className="size-7 lg:size-10"
                             alt="icon"
                         />
 
-                        <h2 className="text-sm lg:text-2xl font-semibold text-blue-900">
+                        <h2 className="text-sm lg:text-lg 2xl:text-2xl font-semibold text-blue-900">
                             {activeFood.title}
                         </h2>
                     </div>
 
-                    <p className="text-[#1e1e1e] text-[10px]/[22px] lg:text-xl">
+                    <p className="text-[#1e1e1e] text-[10px]/[22px] 2xl:text-xl">
                         لورم ایپسوملورم ایپسوم لورم ایپسوم لورم ایپسوملورم
                         ایپسوم لورم ایپسوم لورم ایپسوملورم ایپسوم لورم ایپسوم
                         لورم ایپسوم ایپسوم لورم ایپسوملورم ایپسوم لورم ایپسوم

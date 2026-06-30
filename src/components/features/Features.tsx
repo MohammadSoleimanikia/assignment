@@ -54,7 +54,7 @@ export default function Features() {
                 <div className="md:w-3/12 md:pr-2 text-white md:space-y-15">
                     <div className="px-5 flex mt-5 justify-between relative">
                         <div className="flex items-center">
-                            <h2 className="text-xl  md:font-semibold md:text-base lg:text-xl xl:text-4xl">
+                            <h2 className="text-xl  md:font-semibold md:text-base 2xl:text-xl 3xl:text-4xl">
                                 از دستت در نره
                             </h2>
 
@@ -75,7 +75,7 @@ export default function Features() {
                     <div className="text-center text-sm lg:text-lg xl:text-2xl md:text-right lg:px-3 space-y-3 mt-3">
                         <p>رویداد های در حال برگزاری</p>
 
-                        <p className="text-xs md:text-[9px]  lg:text-base xl:text-lg font-light">
+                        <p className="text-xs md:text-[9px]  lg:text-base 2xl:text-lg font-light">
                             از امروز تا یک هفته بعد ...
                         </p>
 
