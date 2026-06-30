@@ -8,11 +8,11 @@ export default function Header() {
                         items-center md:items-start
                         text-white"
         >
-            <h1 className="text-4xl md:text-6xl 2xl:text-8xl
+            <h1 className="text-4xl xl:text-6xl 2xl:text-8xl
                     font-bold drop-shadow-xl drop-shadow-black">
                 غذا و رستوران
             </h1>
-            <div className="flex text-xs lg:text-base mt-4">
+            <div className="flex text-xs xl:text-xs 2xl:text-base mt-4">
                 <span className="bg-amber-300 rounded-lg px-1 py-0.5 ml-1 ">
                     132
                 </span>
