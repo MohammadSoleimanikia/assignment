@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
-import "./Slider.css";
+import "../shared/Slider.css";
 import PrimaryButton from "../shared/PrimaryButton";
 
 export default function HeroSliderMobile() {
