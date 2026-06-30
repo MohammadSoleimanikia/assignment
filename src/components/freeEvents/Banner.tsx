@@ -5,7 +5,7 @@ export default function Banner() {
             <div
                 className="
                     relative z-10 w-full overflow-hidden
-                    min-h-[155px]
+                    min-h-[250px]
                     flex items-center justify-between
                     text-white p-6 md:p-10 md:px-20
                     bg-gradient-to-br from-[#FF2020] via-[#EF325F] to-[#59248A]
