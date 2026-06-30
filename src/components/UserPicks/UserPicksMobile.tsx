@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "../shared/Card";
 import { EVENTS_DATA } from "../../data";
 export default function UserPicksMobile() {

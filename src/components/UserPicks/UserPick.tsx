@@ -1,4 +1,3 @@
-import React from "react";
 import UserPicksDesktop from "./UserPicksDesktop";
 import UserPicksMobile from "./UserPicksMobile";
 
