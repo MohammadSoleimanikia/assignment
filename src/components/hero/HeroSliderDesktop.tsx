@@ -21,13 +21,24 @@ export default function HeroSliderDesktop() {
     };
 
     return (
-        <div className="hidden md:flex w-full mt-10 items-start pl-30">
+        <div className="hidden md:flex w-full mt-10 items-stretch pl-30">
             {/* Slider */}
             <div className="w-2/3">
                 <Swiper
                     dir="ltr"
                     modules={[Autoplay]}
                     slidesPerView={3.5}
+                    breakpoints={{
+                        768: {
+                            slidesPerView: 2.2,
+                        },
+                        996: {
+                            slidesPerView: 2.8,
+                        },
+                        1217:{
+                            slidesPerView:3.5
+                        }
+                    }}
                     slidesPerGroup={1}
                     spaceBetween={0}
                     loop={true}
@@ -75,7 +86,7 @@ export default function HeroSliderDesktop() {
             </div>
 
             {/* active card data */}
-            <div className="p-10 md:w-1/3 ">
+            <div className="px-10 pt-10 md:w-2/3 ">
                 <div key={activeIndex} className="animate-cta-slide-up">
                     <div className="flex items-center gap-2">
                         <img
@@ -99,7 +110,7 @@ export default function HeroSliderDesktop() {
                     </p>
                 </div>
 
-                <div className="mt-25 flex justify-center md:justify-between">
+                <div className="mt-25 flex justify-center gap-5 md:justify-between">
                     <SliderNextButton onClick={handleNextSlide} />
 
                     <PrimaryButton>رزرو رویداد</PrimaryButton>

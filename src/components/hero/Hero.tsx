@@ -14,7 +14,7 @@ export default function Hero() {
 
             <img
                 src="/desktop.png"
-                className="hidden md:block absolute top-0 -z-10 w-full h-screen object-cover"
+                className="hidden md:block absolute top-0 -z-10 w-full h-full  object-cover"
                 alt="desktop pic"
             />
             <div className="flex flex-col md:flex-row  mt-15">
