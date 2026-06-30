@@ -49,19 +49,19 @@ export default function UserPicksDesktop() {
                 "
             >
                 <Card
-                    className="transition-transform duration-300 hover:scale-125"
+                    className="transition-transform duration-300 hover:scale-110"
                     PicAddress="/Rectangle 29266.png"
                     price={50000}
                     title="خوشمزه خوشمزه"
                 />
                 <Card
-                    className="transition-transform duration-300 hover:scale-125"
+                    className="transition-transform duration-300 hover:scale-110"
                     PicAddress="/Rectangle 29266-2.png"
                     price={50000}
                     title="خوشمزه خوشمزه"
                 />
                 <Card
-                    className="transition-transform duration-300 hover:scale-125"
+                    className="transition-transform duration-300 hover:scale-110"
                     PicAddress="/Rectangle 29266.png"
                     price={50000}
                     title="خوشمزه خوشمزه"
