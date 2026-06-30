@@ -25,6 +25,12 @@ export default function FeaturesSliderDesktop({
                         },
                         1024:{
                             slidesPerView:3.3
+                        },
+                        1200:{
+                            slidesPerView:4.2
+                        },
+                        1600:{
+                            slidesPerView:5.2
                         }
                     }}
                     slidesPerGroup={1}
@@ -44,7 +50,7 @@ export default function FeaturesSliderDesktop({
                     {FOOD_DATA.map((food: FoodType, index) => (
                         <SwiperSlide
                             key={index}
-                            className="!flex !items-start !justify-center py-3"
+                            className="max-w-lg !flex !items-start !justify-center py-3"
                         >
                             <div
                                 className={`

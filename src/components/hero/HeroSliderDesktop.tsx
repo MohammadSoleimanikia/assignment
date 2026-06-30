@@ -30,14 +30,17 @@ export default function HeroSliderDesktop() {
                     slidesPerView={3.5}
                     breakpoints={{
                         768: {
-                            slidesPerView: 2.2,
+                            slidesPerView: 2.5,
                         },
-                        996: {
-                            slidesPerView: 2.8,
+                        1024: {
+                            slidesPerView: 3.3,
                         },
-                        1217:{
-                            slidesPerView:3.5
-                        }
+                        1200: {
+                            slidesPerView: 4.2,
+                        },
+                        1600: {
+                            slidesPerView: 5.2,
+                        },
                     }}
                     slidesPerGroup={1}
                     spaceBetween={0}

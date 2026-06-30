@@ -4,7 +4,7 @@ import UserPicksMobile from "./UserPicksMobile";
 
 export default function UserPick() {
     return (
-        <div className=" w-11/12 md:w-9/12 mx-auto space-y-5" >
+        <div className=" w-11/12 lg:w-9/12 mx-auto space-y-5" >
             {/* heading */}
             <div className="text-center space-y-2">
                 <h2 className="text-xl font-medium md:font-semibold ">انتخاب کاربران</h2>

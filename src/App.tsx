@@ -5,7 +5,7 @@ import UserPick from "./components/UserPicks/UserPick";
 
 function App() {
     return (
-        <main className="bg-slate-100  font-vazir  min-h-screen space-y-24 font-vazir">
+        <main className="bg-slate-100  font-vazir  min-h-screen  space-y-24 font-vazir">
             <Hero />
             <Features />
             <UserPick />

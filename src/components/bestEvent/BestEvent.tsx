@@ -1,6 +1,6 @@
 export default function BestEvent() {
     return (
-        <div className="w-11/12 md:w-9/12 md:flex md:flex-row-reverse rounded-xl md:rounded-2xl p-4 bg-white mx-auto relative  ">
+        <div className="w-11/12 lg:w-9/12 md:flex md:flex-row-reverse rounded-xl md:rounded-2xl p-4 bg-white mx-auto relative  ">
             {/* عکس اصلی + اکشن‌ها */}
             <div className="relative w-full mt-10 md:mt-0 aspect-square overflow-hidden rounded-xl ">
                 <img

@@ -31,7 +31,7 @@ export default function Features() {
                 relative
                 bg-gradient-to-br from-[#FF7777] to-[#EF234C]
                 pt-5
-                md:w-9/12 md:mx-auto md:rounded-2xl
+                md:w-11/12 lg:9/12 md:mx-auto md:rounded-2xl
                 md:min-h-[300px]
             "
         >
