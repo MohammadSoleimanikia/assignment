@@ -31,7 +31,7 @@ export default function Features() {
                 relative
                 bg-gradient-to-br from-[#FF7777] to-[#EF234C]
                 pt-5
-                md:w-11/12 lg:9/12 md:mx-auto md:rounded-2xl
+                w-11/12 lg:w-9/12 md:mx-auto md:rounded-2xl
                 md:min-h-[300px]
             "
         >
@@ -51,10 +51,11 @@ export default function Features() {
                 "
             >
                 {/* Info - right side on desktop */}
-                <div className="md:w-3/12 md:pr-2 text-white md:space-y-15">
+                <div className="md:w-3/12 md:pr-2 text-white md:space-y-8">
                     <div className="px-5 flex mt-5 justify-between relative">
                         <div className="flex items-center">
-                            <h2 className="text-xl  md:font-semibold md:text-base 2xl:text-xl 3xl:text-4xl">
+                            <h2 className="text-lg lg:text-2xl xl:text-2xl
+                                            md:font-semibold md:text-base ">
                                 از دستت در نره
                             </h2>
 
@@ -72,17 +73,23 @@ export default function Features() {
                         </div>
                     </div>
 
-                    <div className="text-center text-sm lg:text-lg xl:text-2xl md:text-right lg:px-3 space-y-3 mt-3">
+                    <div className="text-center
+                                    text-xs lg:text-sm xl:text-lg
+                                    md:text-right lg:px-3 space-y-3 ">
                         <p>رویداد های در حال برگزاری</p>
 
-                        <p className="text-xs md:text-[9px]  lg:text-base 2xl:text-lg font-light">
+                        <p className="
+                        text-xs lg:text-xs xl:text-md
+                        font-light">
                             از امروز تا یک هفته بعد ...
                         </p>
 
                         <img
                             src="/purple-clock.png"
                             alt="purple clock icon"
-                            className="mr-8 mt-5 hidden md:block w-16 lg:w-22 xl:w-28 xl:mb-3 drop-shadow-[12px_14px_25px_rgba(81,65,255,0.3)]"
+                            className="mr-8 mt-5 hidden md:block
+                            w-16 lg:w-20
+                            xl:mb-3 drop-shadow-[12px_14px_25px_rgba(81,65,255,0.3)]"
                         />
                     </div>
                 </div>

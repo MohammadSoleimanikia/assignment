@@ -20,7 +20,6 @@ export default function PrimaryButton({
                 bg-[#1d60a4]
                 w-44 py-2.5
                 text-white rounded-md
-
                 before:content-['']
                 before:absolute
                 before:left-0
