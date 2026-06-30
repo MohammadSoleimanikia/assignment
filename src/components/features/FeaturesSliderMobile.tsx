@@ -50,7 +50,7 @@ export default function FeaturesSliderMobile({
                             <Card
                                 PicAddress={food.PicAddress}
                                 title={food.title}
-                                price={food.price.toLocaleString()}
+                                price={food.price}
                                 className="w-full"
                             />
                         </div>

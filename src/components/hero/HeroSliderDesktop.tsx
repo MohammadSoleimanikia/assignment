@@ -65,7 +65,7 @@ export default function HeroSliderDesktop() {
                                 <Card
                                     PicAddress={food.PicAddress}
                                     title={food.title}
-                                    price={food.price.toLocaleString()}
+                                    price={food.price}
                                     className="hover:-translate-y-5"
                                 />
                             </div>

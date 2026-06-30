@@ -6,7 +6,7 @@ export type FoodType = {
 export type FoodCardProps = {
     PicAddress: string;
     title: string;
-    price: string;
+    price: number;
     className?: string;
 };
 
@@ -19,8 +19,8 @@ export default function Card({
     return (
         <div
             className={`
-                bg-white text-black rounded-xl w-full p-1.5 sm:p-2 md:p-2 
-                shadow-sm transition-all duration-300
+                bg-white rounded-xl p-1.5
+                transition-all duration-300
                 ${className}
             `}
         >
@@ -43,7 +43,7 @@ export default function Card({
             </h2>
 
             <p className="mt-1 text-slate-500 text-[10px] md:text-[10px] ">
-                {price}
+                {price.toLocaleString()}
                 <span className="mr-1">تومان</span>
             </p>
         </div>

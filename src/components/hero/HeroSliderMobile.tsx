@@ -54,7 +54,7 @@ export default function HeroSliderMobile() {
                             <Card
                                 PicAddress={food.PicAddress}
                                 title={food.title}
-                                price={food.price.toLocaleString()}
+                                price={food.price}
                                 className="w-full"
                             />
                         </div>

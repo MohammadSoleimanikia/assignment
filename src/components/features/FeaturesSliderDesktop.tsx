@@ -50,7 +50,7 @@ export default function FeaturesSliderDesktop({
                                 <Card
                                     PicAddress={food.PicAddress}
                                     title={food.title}
-                                    price={food.price.toLocaleString()}
+                                    price={food.price}
                                     className="scale-90 hover:scale-100 "
                                 />
                             </div>
