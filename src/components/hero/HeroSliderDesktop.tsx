@@ -94,16 +94,16 @@ export default function HeroSliderDesktop() {
                     <div className="flex items-center gap-2">
                         <img
                             src="/File_dock_fill.svg"
-                            className="size-7"
+                            className="size-7 lg:size-14"
                             alt="icon"
                         />
 
-                        <h2 className="text-sm font-semibold text-blue-900">
+                        <h2 className="text-sm lg:text-2xl font-semibold text-blue-900">
                             {activeFood.title}
                         </h2>
                     </div>
 
-                    <p className="text-[#1e1e1e] text-[10px]/[22px]">
+                    <p className="text-[#1e1e1e] text-[10px]/[22px] lg:text-xl">
                         لورم ایپسوملورم ایپسوم لورم ایپسوم لورم ایپسوملورم
                         ایپسوم لورم ایپسوم لورم ایپسوملورم ایپسوم لورم ایپسوم
                         لورم ایپسوم ایپسوم لورم ایپسوملورم ایپسوم لورم ایپسوم
@@ -116,7 +116,7 @@ export default function HeroSliderDesktop() {
                 <div className="mt-25 flex justify-center gap-5 md:justify-between">
                     <SliderNextButton onClick={handleNextSlide} />
 
-                    <PrimaryButton>رزرو رویداد</PrimaryButton>
+                    <PrimaryButton >رزرو رویداد</PrimaryButton>
                 </div>
             </div>
         </div>

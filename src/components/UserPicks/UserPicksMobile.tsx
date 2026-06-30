@@ -6,7 +6,7 @@ export default function UserPicksMobile() {
             {/* smiley section */}
             <div className="w-full flex justify-end bg-linear-to-br py-5 px-10 rounded-2xl  from-[#E8C631] to-[#F5D548]">
                 <img
-                    src="/public/stickers-container.svg"
+                    src="/stickers-container.svg"
                     className="h-32"
                     alt=""
                 />

@@ -15,6 +15,7 @@ export default function PrimaryButton({
             onClick={onClick}
             className={`
                 text-xs
+                lg:text-lg
                 relative overflow-hidden
                 bg-[#1d60a4]
                 w-44 py-2.5

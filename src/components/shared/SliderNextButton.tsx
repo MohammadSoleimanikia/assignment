@@ -14,7 +14,7 @@ export default function SliderNextButton({
             className={`
                 group
                 bg-[radial-gradient(circle,_rgba(255,255,255,0.6)_0%,_rgba(255,255,255,0.1)_100%)]
-                size-7 md:flex
+                size-7 lg:size-16 md:flex
                 items-center justify-center
                 text-black rounded-md
                 border border-white
@@ -24,7 +24,7 @@ export default function SliderNextButton({
             <span className="sr-only">next slide</span>
 
             <img
-                className="transition-transform duration-300 group-hover:-translate-x-1"
+                className="lg:size-12 transition-transform duration-300 group-hover:-translate-x-1"
                 src="/Expand_left_light.svg"
                 alt=""
             />
