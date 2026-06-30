@@ -122,24 +122,27 @@ export default function BestEvent() {
                         چیزی که امضای تو را دارد.
                     </p>
                 </div>
-                <div className="flex items-center md:gap-3">
-                    <button
-                        type="button"
-                        className="
+                <div className="flex items-center justify-between md:gap-3">
+
+                    {/* CTA */}
+                    <div className="md:flex md:gap-3">
+                        <button
+                            type="button"
+                            className="
                         py-2 md:py-1.5
                         text-xs
                         relative overflow-hidden
                         bg-[#1d60a4] w-28 md:w-44  text-white rounded-lg
                         before:content-[''] before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:bg-[#4a80b6] before:transition-all before:duration-700 before:ease-in-out hover:before:w-5/6"
-                    >
-                        <span className="text-base md:text-sm relative z-10">
-                            رزرو رویداد
-                        </span>
-                    </button>
-                    {/* save btn */}
-                    <button
-                        type="button"
-                        className="
+                        >
+                            <span className="text-base md:text-sm relative z-10">
+                                رزرو رویداد
+                            </span>
+                        </button>
+                        {/* save btn */}
+                        <button
+                            type="button"
+                            className="
                                     hidden
                                     group
                                     md:flex items-center gap-2
@@ -150,35 +153,37 @@ export default function BestEvent() {
                                     transition-all duration-300
                                     hover:border-gray-700
                                     hover:text-gray-900"
-                    >
-                        <span
-                            className="
+                        >
+                            <span
+                                className="
                                     text-[10px] text-gray-500
                                     transition-colors duration-300
                                     group-hover:text-gray-900"
-                        >
-                            نشان کردن
-                        </span>
+                            >
+                                نشان کردن
+                            </span>
 
-                        <svg
-                            width="15"
-                            height="15"
-                            viewBox="0 0 32 32"
-                            fill="none"
-                            className="
+                            <svg
+                                width="15"
+                                height="15"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                                className="
                             stroke-gray-400
                             transition-colors duration-300
                             group-hover:stroke-gray-900
         "
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M6.66797 12.2917C6.66797 8.38296 6.66797 6.42858 7.69309 5.21429C8.71822 4 10.3681 4 13.668 4H18.3346C21.6345 4 23.2844 4 24.3095 5.21429C25.3346 6.42858 25.3346 8.38296 25.3346 12.2917V21.7271C25.3346 25.4353 25.3346 27.2894 24.3496 27.8565C23.3646 28.4236 22.1338 27.2781 19.6723 24.9871L18.8845 24.2539C17.5004 22.9657 16.8083 22.3216 16.0013 22.3216C15.1943 22.3216 14.5022 22.9657 13.1181 24.2539L12.3303 24.9871C9.86877 27.2781 8.63799 28.4236 7.65298 27.8565C6.66797 27.2894 6.66797 25.4353 6.66797 21.7271V12.2917Z"
-                                strokeWidth="1.5"
-                            />
-                        </svg>
-                    </button>
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M6.66797 12.2917C6.66797 8.38296 6.66797 6.42858 7.69309 5.21429C8.71822 4 10.3681 4 13.668 4H18.3346C21.6345 4 23.2844 4 24.3095 5.21429C25.3346 6.42858 25.3346 8.38296 25.3346 12.2917V21.7271C25.3346 25.4353 25.3346 27.2894 24.3496 27.8565C23.3646 28.4236 22.1338 27.2781 19.6723 24.9871L18.8845 24.2539C17.5004 22.9657 16.8083 22.3216 16.0013 22.3216C15.1943 22.3216 14.5022 22.9657 13.1181 24.2539L12.3303 24.9871C9.86877 27.2781 8.63799 28.4236 7.65298 27.8565C6.66797 27.2894 6.66797 25.4353 6.66797 21.7271V12.2917Z"
+                                    strokeWidth="1.5"
+                                />
+                            </svg>
+                        </button>
+                    </div>
 
+                    {/* price section */}
                     <div className="flex justify-start items-baseline gap-2">
                         <p className="text-base line-through text-[#B3DADE]">
                             1250000
