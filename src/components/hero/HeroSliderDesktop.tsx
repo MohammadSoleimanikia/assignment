@@ -36,9 +36,9 @@ export default function HeroSliderDesktop() {
                             slidesPerView: 3.3,
                         },
                         1200: {
-                            slidesPerView: 4.2,
+                            slidesPerView: 3.5,
                         },
-                        1600: {
+                        1500: {
                             slidesPerView: 5.2,
                         },
                     }}

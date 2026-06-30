@@ -2,7 +2,7 @@ export default function BestEvent() {
     return (
         <div className="w-11/12  lg:9/12 md:flex md:flex-row-reverse rounded-xl md:rounded-2xl p-4 bg-white mx-auto relative  ">
             {/* عکس اصلی + اکشن‌ها */}
-            <div className="relative w-full  mt-10 md:mt-0 aspect-square overflow-hidden rounded-xl ">
+            <div className="relative md:w-3/6  mt-10 md:mt-0 aspect-square overflow-hidden rounded-xl ">
                 <img
                     src="/images/bestEvents/Rectangle 29469.png"
                     className="relative w-full h-full object-cover"
@@ -99,7 +99,7 @@ export default function BestEvent() {
             </div>
 
             {/* card detail */}
-            <div className="mt-5 space-y-3 md:mt-20  lg:pl-20 ">
+            <div className="mt-5 space-y-3 md:flex md:flex-col md:justify-end md:mt-20  lg:pl-20 ">
                 {/* user count */}
                 <div className="flex gap-1 items-baseline">
                     <span className="bg-amber-300 text-white md:text-xs rounded-lg px-1 py-0.5 ml-1">
