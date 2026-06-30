@@ -1,7 +1,7 @@
 export default function BestEvent() {
     return (
         <div className="w-11/12 lg:w-9/12
-                        md:flex md:flex-row-reverse 
+                        md:flex md:justify-between md:flex-row-reverse 
                         rounded-xl md:rounded-2xl p-4 
                         bg-white mx-auto relative  ">
             {/* عکس اصلی + اکشن‌ها */}
@@ -102,7 +102,7 @@ export default function BestEvent() {
             </div>
 
             {/* card detail */}
-            <div className="mt-5  md:w-3/6 lg:w-2/3 xl:w-3/4 space-y-3 md:flex md:flex-col md:justify-around md:mt-20  lg:pl-20 ">
+            <div className="mt-5 md:w-3/6 lg:w-2/3 xl:w-3/6 space-y-3 md:flex md:flex-col md:justify-around md:mt-20  lg:pl-20 ">
                 {/* user count */}
                 <div className="flex gap-1 items-baseline">
                     <span className="bg-amber-300 text-white md:text-xs rounded-lg px-1 py-0.5 ml-1">
@@ -187,10 +187,10 @@ export default function BestEvent() {
 
                     {/* price section */}
                     <div className="flex justify-start items-baseline gap-2">
-                        <p className="text-base line-through text-[#B3DADE]">
+                        <p className="text-sm line-through text-[#B3DADE]">
                             1250000
                         </p>
-                        <p className="text-base ">1000000 تومان</p>
+                        <p className="text-base font-semibold">1000000 تومان</p>
                     </div>
                 </div>
             </div>
