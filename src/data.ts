@@ -3,7 +3,7 @@ import type { FoodType } from "./components/shared/Card";
 export const FOOD_DATA: FoodType[] = [
     {
         PicAddress: "/Rectangle 29266-1.png",
-        title: "خوشمزه خوشمزه",
+        title: "مسابقه هنر های تجسمی خلاق",
         price: 2500001,
     },
 
@@ -14,7 +14,7 @@ export const FOOD_DATA: FoodType[] = [
     },
     {
         PicAddress: "/Rectangle 29266-1.png",
-        title: "خوشمزه خوشمزه",
+        title: "مسابقه هنر های تجسمی خلاق",
         price: 2500001,
     },
     {
@@ -24,7 +24,7 @@ export const FOOD_DATA: FoodType[] = [
     },
     {
         PicAddress: "/Rectangle 29266-1.png",
-        title: "خوشمزه خوشمزه",
+        title: "مسابقه هنر های تجسمی خلاق",
         price: 2500001,
     },
     {
@@ -35,7 +35,7 @@ export const FOOD_DATA: FoodType[] = [
 
     {
         PicAddress: "/Rectangle 29266-1.png",
-        title: "خوشمزه خوشمزه",
+        title: "مسابقه هنر های تجسمی خلاق",
         price: 2500001,
     },
     {
@@ -43,4 +43,29 @@ export const FOOD_DATA: FoodType[] = [
         title: " سه طعم جدید در بوم لانژ",
         price: 2500001,
     },
+];
+
+export const EVENTS_DATA: FoodType[] = [
+    {
+        PicAddress: "/Rectangle 29266-1.png",
+        title: "مسابقه هنر های تجسمی خلاق",
+        price: 2500001,
+    },
+
+    {
+        PicAddress: "/Rectangle 29266-2.png",
+        title: "سرو غذا در ارتفاع",
+        price: 2500001,
+    },
+    {
+        PicAddress: "/Rectangle 29266-1.png",
+        title: "مسابقه هنر های تجسمی خلاق",
+        price: 2500001,
+    },
+    {
+        PicAddress: "/Rectangle 29266.png",
+        title: "تهچین خوری با امیر بلبلی",
+        price: 2500001,
+    },
+    
 ];
