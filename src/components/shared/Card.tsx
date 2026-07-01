@@ -24,7 +24,7 @@ export default function Card({
                 ${className}
             `}
         >
-            <div className="relative aspect-square min-w-36">
+            <div className="relative aspect-square ">
                 <img
                     src="/save-icon.svg"
                     alt="save icon"
