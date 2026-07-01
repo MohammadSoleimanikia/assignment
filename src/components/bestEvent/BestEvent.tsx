@@ -70,14 +70,14 @@ export default function BestEvent() {
           alt=""
         />
 
-        <span className="absolute inset-0 flex items-center justify-center text-xl font-semibold text-white">
+        <span className="absolute inset-0 flex items-center justify-center text-xl  text-white">
           بهترین رویداد هفته
         </span>
       </div>
 
       {/* card detail */}
       {/* lg:w-2/3 xl:w-3/6 */}
-      <div className="mt-8 space-y-4 md:mt-20 md:flex md:w-2/3 md:flex-col md:justify-end lg:pl-10 xl:w-6/12">
+      <div className="mt-8 z-20 space-y-4 md:mt-20 md:flex md:w-2/3 md:flex-col md:justify-end lg:pl-10 xl:w-6/12">
         {/* user count */}
         <div className="flex items-baseline gap-1 md:mt-10 md:text-xs 2xl:text-base">
           <span className="ml-1 rounded-lg bg-amber-300 px-1 py-0.5 text-white">
@@ -85,7 +85,7 @@ export default function BestEvent() {
           </span>
           <p className="text-[#3e7cb1]">نفر در این رویداد شرکت کردن</p>
         </div>
-        <h2 className="text-lg font-semibold md:mt-10 md:text-sm 2xl:text-lg">
+        <h2 className="text-lg font-semibold  md:text-sm 2xl:text-lg">
           سفالگری ، تجربه ای از لمس تا خلق{" "}
         </h2>
         <div>
@@ -102,7 +102,7 @@ export default function BestEvent() {
           <div className="md:flex md:gap-3">
             <button
               type="button"
-              className="relative w-28 overflow-hidden rounded-lg bg-[#1d60a4] py-3 text-xs text-white before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:bg-[#4a80b6] before:transition-all before:duration-700 before:ease-in-out before:content-[''] hover:before:w-5/6 md:w-32 md:py-1.5 2xl:w-56 2xl:py-3.5"
+              className="relative w-28 md:w-40 overflow-hidden rounded-lg bg-[#1d60a4] py-3 text-xs text-white before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:bg-[#4a80b6] before:transition-all before:duration-700 before:ease-in-out before:content-[''] hover:before:w-5/6 md:w-32 md:py-1.5 2xl:w-56 2xl:py-3.5"
             >
               <span className="relative z-10 text-base md:text-sm">
                 رزرو رویداد
