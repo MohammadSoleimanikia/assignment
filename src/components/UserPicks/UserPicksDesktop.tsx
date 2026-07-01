@@ -23,6 +23,7 @@ export default function UserPicksDesktop() {
                 
                     absolute top-[10%] left-[10%]
                     w-[clamp(120px,30vw,400px)]
+                    2xl:w-[clamp(120px,40vw,500px)]
                 "
             />
 
