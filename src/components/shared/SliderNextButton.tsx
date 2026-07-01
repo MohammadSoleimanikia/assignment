@@ -16,7 +16,7 @@ export default function SliderNextButton({
                 bg-[radial-gradient(circle,_rgba(255,255,255,0.6)_0%,_rgba(255,255,255,0.1)_100%)]
                 size-7 2xl:size-12 md:flex
                 items-center justify-center
-                text-black rounded-md
+                text-black rounded-md 2xl:rounded-xl
                 border border-white
                 ${className}
             `}
