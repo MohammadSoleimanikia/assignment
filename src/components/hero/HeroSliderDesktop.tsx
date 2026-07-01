@@ -21,7 +21,7 @@ export default function HeroSliderDesktop() {
     };
 
     return (
-        <div className="hidden md:flex w-full mt-10 items-stretch pl-30">
+        <div className="hidden md:flex w-full mt-10 items-stretch pl-14 ">
             {/* Slider */}
             <div className="w-2/3">
                 <Swiper
@@ -33,8 +33,9 @@ export default function HeroSliderDesktop() {
                             slidesPerView:2.5
                         },
                         950:{
-                            slidesPerView:3.5
+                            slidesPerView:3.3
                         }
+                        
                     }}
                     slidesPerGroup={1}
                     spaceBetween={0}
@@ -66,7 +67,7 @@ export default function HeroSliderDesktop() {
                                     ${
                                         index === activeIndex
                                             ? "scale-100 opacity-100 z-20"
-                                            : "scale-85 z-10"
+                                            : "scale-80 z-10"
                                     }
                                 `}
                             >
@@ -75,7 +76,7 @@ export default function HeroSliderDesktop() {
                                     title={food.title}
                                     price={food.price}
                                     className="hover:-translate-y-5 
-                                    md:w-44 xl:w-56 2xl:w-64"
+                                    md:w-40 xl:w-56 2xl:w-72"
                                 />
                             </div>
                         </SwiperSlide>
@@ -84,7 +85,7 @@ export default function HeroSliderDesktop() {
             </div>
 
             {/* active card data */}
-            <div className="px-10 pt-10 pb-5 md:w-2/3 ">
+            <div className="px-8 pt-10 pb-5 md:w-2/3 ">
                 <div key={activeIndex} className="animate-cta-slide-up">
                     <div className="flex items-center gap-2">
                         <img
