@@ -28,7 +28,14 @@ export default function HeroSliderDesktop() {
                     dir="ltr"
                     modules={[Autoplay]}
                     slidesPerView={3.5}
-                    
+                    breakpoints={{
+                        768:{
+                            slidesPerView:2.5
+                        },
+                        950:{
+                            slidesPerView:3.5
+                        }
+                    }}
                     slidesPerGroup={1}
                     spaceBetween={0}
                     loop={true}
@@ -104,7 +111,7 @@ export default function HeroSliderDesktop() {
                 <div className="mt-25 flex justify-center gap-5 md:justify-between">
                     <SliderNextButton onClick={handleNextSlide} />
 
-                    <PrimaryButton >رزرو رویداد</PrimaryButton>
+                    <PrimaryButton className="2xl:w-72">رزرو رویداد</PrimaryButton>
                 </div>
             </div>
         </div>
