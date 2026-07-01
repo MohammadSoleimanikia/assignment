@@ -37,7 +37,7 @@ export default function Features() {
             <div className="flex pt-5 mx-5 justify-between">
                 <div className="flex items-center">
                     <h2
-                        className="text-lg text-white lg:text-2xl xl:text-2xl
+                        className="text-lg text-white lg:text-2xl xl:text-2xl 2xl:text-4xl
                                             md:font-semibold md:text-base "
                     >
                         از دستت در نره
@@ -65,14 +65,13 @@ export default function Features() {
                 {/* text */}
                 <div
                     className="text-center text-white mt-3 mr-5 
-                                    lg:text-sm xl:text-lg
                                     md:text-right md:mt-10 lg:px-3 space-y-3 "
                 >
-                    <p>رویداد های در حال برگزاری</p>
+                    <p className="lg:text-sm xl:text-lg 2xl:text-2xl">رویداد های در حال برگزاری</p>
 
                     <p
                         className="
-                        text-xs lg:text-xs xl:text-md
+                        text-xs lg:text-xs xl:text-md 2xl:text-base
                         font-light"
                     >
                         از امروز تا یک هفته بعد ...
@@ -82,7 +81,7 @@ export default function Features() {
                         src="/purple-clock.png"
                         alt="purple clock icon"
                         className="mr-8 mt-5 hidden md:block
-                            w-16 lg:w-20 xl:w-28
+                            w-16 lg:w-20 xl:w-28 2xl:w-36
                             xl:mb-3 drop-shadow-[12px_14px_25px_rgba(81,65,255,0.3)]"
                     />
                 </div>

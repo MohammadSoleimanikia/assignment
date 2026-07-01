@@ -76,7 +76,7 @@ export default function HeroSliderDesktop() {
                                     title={food.title}
                                     price={food.price}
                                     className="hover:-translate-y-5 
-                                    md:w-40 xl:w-56 2xl:w-72"
+                                    md:w-40 lg:w-48 xl:w-56 2xl:w-72"
                                 />
                             </div>
                         </SwiperSlide>
@@ -109,7 +109,7 @@ export default function HeroSliderDesktop() {
                     </p>
                 </div>
 
-                <div className="mt-25 flex justify-center gap-5 md:justify-between">
+                <div className="mt-25 flex items-center justify-center gap-5 md:justify-between">
                     <SliderNextButton onClick={handleNextSlide} />
 
                     <PrimaryButton className="2xl:w-72">رزرو رویداد</PrimaryButton>

@@ -19,20 +19,7 @@ export default function FeaturesSliderDesktop({
                 <Swiper
                     dir="rtl"
                     modules={[Autoplay]}
-                    breakpoints={{
-                        768:{
-                            slidesPerView:2.7
-                        },
-                        1024:{
-                            slidesPerView:3.3
-                        },
-                        1200:{
-                            slidesPerView:4.2
-                        },
-                        1600:{
-                            slidesPerView:5.2
-                        }
-                    }}
+                    slidesPerView={3.5}
                     slidesPerGroup={1}
                     spaceBetween={10}
                     loop={true}
@@ -64,7 +51,8 @@ export default function FeaturesSliderDesktop({
                                     PicAddress={food.PicAddress}
                                     title={food.title}
                                     price={food.price}
-                                    className="scale-90 hover:scale-100 "
+                                    className="scale-90 hover:scale-100 
+                                    md:w-38 xl:w-52 2xl:w-72"
                                 />
                             </div>
                         </SwiperSlide>
