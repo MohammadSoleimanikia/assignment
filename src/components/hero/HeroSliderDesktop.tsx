@@ -85,7 +85,7 @@ export default function HeroSliderDesktop() {
             </div>
 
             {/* active card data */}
-            <div className="px-8 pt-10 pb-5 md:w-2/3 ">
+            <div className="px-8 py-10  md:w-2/3 ">
                 <div key={activeIndex} className="animate-cta-slide-up">
                     <div className="flex items-center gap-2">
                         <img
